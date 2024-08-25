@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: url(https://cur.cursors-4u.net/mechanics/mec-5/mec424.cur), auto;
+}
+
+#intro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: rgb(241, 227, 208);
+    padding: 30px 30px 30px 30px;
+}
+
+#ob {
+    font-family: "rocinante-titling-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 400;
+    padding-right: 10px;
+    font-size: 45px;
+    letter-spacing: -8px;
+}
+
+#opening-span {
+    font-family: "rocinante-titling-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 400;
+    font-size: 30px;
+    letter-spacing: -2.5px;
+}
+
+#desperado-movie {
+    font-family: century-gothic, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(213, 76, 54);
+    font-size: 40px;
+    margin-bottom: 9px;
+}
+
+#hero {
+    font-family: "drunk-cowboy", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(213, 76, 54);
+    font-size: 90px;
+    letter-spacing: 30px;
+    text-align: center;
+}
+
+#main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+h6, p {
+    font-family: "scotch-deck", sans-serif;
+    font-style: normal;
+}
+
+#tag-line {
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#tag-line-container {
+    width: 50%;
+    height: auto;
+}
+
+#img-container {
+    width: 50%;
+    height: auto;
+}
+
+img {
+    max-width: 500px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "rocinante-titling-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 800;
+    list-style: none;
+}
+
+section nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+section nav ul li a {
+    font-size: 55px;
+    letter-spacing: -8px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

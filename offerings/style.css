@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: "mesquite-std", sans-serif;
+    font-weight: 300;
+}
+
+body {
+    background-image: url(/offerings/offerings-assets/sj-objio-XFWiZTa2Ub0-unsplash.jpg);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22rem;
+    letter-spacing: 4rem;
+}
+
+#menu {
+    font-size: 18rem;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 2rem;
+    margin: 4rem;
+}
+
+#menu-price {
+    display: flex;
+    flex-direction: column;
+}
+
+#rules-container {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 10rem;
+}
+
+#rules {
+    font-size: 12rem;
+    letter-spacing: 1rem;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    list-style-image: url(/offerings/offerings-assets/Untitled\ design\(9\).png);
+}
+
+img {
+    width: 10%;
+    height: auto;
+}
+
+ul span {
+    font-weight: 600;
+    font-size: 15rem;
+    margin-left: 3rem;
+}
